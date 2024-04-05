@@ -1,0 +1,151 @@
+body {
+  font-family: "Franklin Gothic", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin:0.5 rem 0;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+h3{
+  font-size: 1rem;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+h4{
+  font-size: 0.75rem;
+  font-weight: 200;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+h5{
+  font-size: 1rem;
+  font-weight: bold ;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+
+a{
+  text-decoration: none;
+}
+select{
+  margin-bottom: 10px;
+}
+
+.row{
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.items{
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 50rem;
+}
+
+.item-section{
+  width: 50rem;
+  margin-left: 6rem;
+}
+
+.scent-notes {
+  display: flex;
+  justify-content: center ;
+  max-height: 3rem;
+}
+
+.scent-note {
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 20px; 
+  background-color: #f0f0f0; 
+  text-align: center;
+  font-size: 13px;
+}
+
+.col-1{
+  flex:1;
+}
+
+.col-2{
+  display: flex;
+  max-width: 60rem;
+}
+
+.filters{
+  display: flex;
+  flex-direction: column ;
+  max-width: 10rem;
+  /* margin-top: 0.8rem; */
+}
+.content-block{
+  margin: 2px;
+  text-align: center;
+}
+
+.card{
+  height: 20rem;
+  width: 13rem;
+  background-color: rgb(225, 217, 217);
+  border-radius: 20px;
+  border-style: solid;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.block{
+  background-color:rgb(246, 240, 233);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  /* max-width: 200rem; */
+  /* display: flex; */
+  
+}
+
+.row.center {
+  align-items: center;
+}
+
+img.small{
+  height: 9rem;
+  /* margin: 1rem; */
+}
+
+button{
+  margin: 2px;
+  margin-bottom: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px; 
+  background-color: #f0f0f0; 
+  text-align: center;
+  font-size: 13px;
+}
+
+select {
+  border: none; 
+  padding: 5px;
+  font-size: 1rem; 
+  cursor: pointer; 
+  width: 200px; 
+  /* outline: none;  */
+}
+
+.cart-item {
+  display: flex; /* Set display to flex */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space items evenly */
+}
