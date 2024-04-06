@@ -60,7 +60,7 @@ export default function Main(props) {
         <div className="filters">
           <h1>Filters</h1>
           <label>
-            <b>Filter by Price:</b>
+            Filter by Price:
             <select value={filterPrice} onChange={handlePriceRangeChange}>
               <option value="">-- Select --</option>
               <option value="1">$0 - $100</option>
@@ -70,7 +70,7 @@ export default function Main(props) {
             </select>
           </label>
           <label>
-            <b>Filter by Scent:</b>
+            Filter by Scent:
             <select value={filterScent} onChange={handleSelectChange}>
               <option value="">-- Select --</option>
               {allScentNotes.map((note) => (
@@ -81,7 +81,7 @@ export default function Main(props) {
             </select>
           </label>
           <label>
-            <b>Filter by Brand:</b>
+            Filter by Brand:
             <select value={filterBrand} onChange={handleBrandChange}>
               <option value="">-- Select --</option>
               {allBrands.map((brand) => (
@@ -92,7 +92,7 @@ export default function Main(props) {
             </select>
           </label>
           <label>
-            <b>Sort by Price:</b>
+            Sort by Price:
             <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
               <option value="">-- Select --</option>
               <option value="asc">Low to High</option>
