@@ -12,15 +12,16 @@ export default function Basket(props){
         {cartItems.map((item) => (
             <div key={item.id} className ="row">
                 <div style={{ marginRight: '10px' }}>
-                            <button onClick={() => onRemove(item)} className ="remove" style={{ padding: '0px 15px', fontSize: '1.8rem' }}>
+                            <button onClick={() => onRemove(item)} className ="remove" style={{ padding: '0px 15px', fontSize: '1.5rem' }}>
                             -
                             </button>
                         </div>
                     <div className='cart-item'>
                         
-                        <div className="col-2" style={{ marginRight: '10px' }}>{item.name}</div>
-                    
+                        <div div className="col-2 item-name" style={{ marginRight: '10px' }}>{item.name}</div>
+                        <div className="item-details">
                         {item.qty} x ${item.price.toFixed(2)}
+                        </div>
                         
                     </div>
                 </div>

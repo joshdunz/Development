@@ -103,7 +103,7 @@ export default function Main(props) {
         </div>
       <div className='item-section'>
         <h1>Products</h1>
-        <p>No. of items: {filteredProducts.length}</p>
+        <h3>Number of items: {filteredProducts.length}</h3>
         <div className="items">
           {filteredProducts.map((product) => (
             <Product key={product.id} product={product} onAdd={onAdd}></Product>
