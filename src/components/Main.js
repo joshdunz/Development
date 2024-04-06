@@ -70,7 +70,7 @@ export default function Main(props) {
             </select>
           </label>
           <label>
-            Filter by Scent:
+            <b>Filter by Scent:</b>
             <select value={filterScent} onChange={handleSelectChange}>
               <option value="">-- Select --</option>
               {allScentNotes.map((note) => (
@@ -81,7 +81,7 @@ export default function Main(props) {
             </select>
           </label>
           <label>
-            Filter by Brand:
+            <b>Filter by Brand:</b>
             <select value={filterBrand} onChange={handleBrandChange}>
               <option value="">-- Select --</option>
               {allBrands.map((brand) => (
@@ -92,7 +92,7 @@ export default function Main(props) {
             </select>
           </label>
           <label>
-            Sort by Price:
+            <b>Sort by Price:</b>
             <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
               <option value="">-- Select --</option>
               <option value="asc">Low to High</option>
